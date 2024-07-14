@@ -338,6 +338,8 @@ def show_help(message):
 
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
+    print("From azrex")
+    
     user_name = message.from_user.first_name
     response = (
         f"🥀Welcome {user_name}!\n\n"
